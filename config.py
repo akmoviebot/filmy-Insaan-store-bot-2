@@ -25,8 +25,8 @@ API_HASH = os.environ.get("API_HASH", "b642a25aee67b2aed02116df4a916bca") #Your 
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002266075027")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "tv_serial_wala Soumya_0") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7459282233 7952996394 7228789341")) # Owner id
+OWNER = os.environ.get("OWNER", "tv_serial_wala") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "7459282233")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -67,7 +67,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /admins :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ᴀᴅᴍɪɴs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>•⚡Join BackUp Channel 👇👇https://t.me/+tfMotF_iMvZmZDFl</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os. environ.get("CUSTOM_CAPTION", "<b>• ⚡Join BackUp Channel 👇👇https://t.me/+tfMotF_iMvZmZDFl</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
